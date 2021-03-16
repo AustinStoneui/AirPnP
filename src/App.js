@@ -6,6 +6,7 @@ import Banner from './components/banner/Banner';
 import Search from './components/search/search';
 import Explore  from './components/explore/explore';
 import Adventure from './components/adventures/Adventure';
+import Booking from './components/booking/booking';
 import Gallery from './components/gallery/gallery';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
@@ -19,6 +20,7 @@ function App() {
         <Search />
         <Explore />
         <Adventure />
+        <Booking />
         <Gallery />
         <Contact />
         <Footer/>

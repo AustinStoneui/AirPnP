@@ -54,8 +54,6 @@
       var instances = M.Sidenav.init(elems, options);
     });
 
-
-
     $(document).ready(function () {
       $('.sidenav').sidenav();
     });
@@ -88,7 +86,8 @@
 
     $(".scrollspy").scrollSpy();
     $(".materialboxed").materialbox();
-    $("input_text, textareamessage").characterCounter();
+    $("input#_text, textarea#message").characterCounter();
+    $('.fixed-action-btn').floatingActionButton();
 
   });
   </script>

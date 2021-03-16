@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "../../../node_modules/materialize-css/dist/css/materialize.css";
+import "materialize-css/dist/css/materialize.css";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
@@ -11,28 +11,26 @@ const SmoothScroll = () => {
           <div class="container">
             <div class="nav-wrapper">
               <AnchorLink href="!#" class="brand-logo">AirPnP</AnchorLink>
-              <AnchorLink href="!#" data-target="mobile-demo" class="sidenav-trigger"
-              ><i class="material-icons">menu</i></AnchorLink>
-
+              <AnchorLink href="!#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></AnchorLink>
               <ul class="right hide-on-med-and-down">
                 <li><AnchorLink href="/home">Home</AnchorLink></li>
                 <li><AnchorLink href="/search">Search</AnchorLink></li>
                 <li><AnchorLink href="/explore">Explore</AnchorLink></li>
-                <li><AnchorLink href="/adventure">Adventures</AnchorLink></li>
+                <li><AnchorLink href="/adventures">Adventures</AnchorLink></li>
                 <li><AnchorLink href="/gallery">Gallery</AnchorLink></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><AnchorLink href="/contact">Contact</AnchorLink></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
       <ul class="sidenav" id="mobile-demo">
-        <li><AnchorLink href="/home">Home</AnchorLink></li>
-        <li><AnchorLink href="/search">Search</AnchorLink></li>
-        <li><AnchorLink href="/explore">Explore</ AnchorLink></li>
-        <li><AnchorLink href="/adventure">Adventures</AnchorLink></li>
-        <li><AnchorLink href="/gallery">Gallery</AnchorLink></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><AnchorLink href="#home">Home</AnchorLink></li>
+        <li><AnchorLink href="#search">Search</AnchorLink></li>
+        <li><AnchorLink href="#explore">Explore</ AnchorLink></li>
+        <li><AnchorLink href="#adventure">Adventures</AnchorLink></li>
+        <li><AnchorLink href="#gallery">Gallery</AnchorLink></li>
+        <li><AnchorLink href="#contact">Contact</AnchorLink></li>
       </ul>
     </section>
   )

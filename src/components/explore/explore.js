@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import '../../../node_modules/materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
+import './explore.css';
 
 export default class explore extends Component {
     render() {
         return (
-            <section id="explore" className="section section-icons grey lighten-4 center">
+            <section id="explore" className="section section-explore grey lighten-4 center">
                 <div className="container">
                     <div className="row">
                         <h4 className="center">
